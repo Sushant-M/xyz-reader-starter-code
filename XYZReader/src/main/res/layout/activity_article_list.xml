@@ -15,7 +15,7 @@
             android:layout_height="match_parent"
             android:clipToPadding="false"
             android:scrollbarStyle="outsideOverlay"
-            android:paddingTop="116dp"
+            android:paddingTop="64dp"
             android:paddingLeft="@dimen/list_side_margin"
             android:paddingRight="@dimen/list_side_margin"
             android:paddingBottom="28dp" />
@@ -24,8 +24,8 @@
     <FrameLayout
         android:id="@+id/toolbar_container"
         android:layout_width="match_parent"
-        android:layout_height="112dp"
-        android:background="@color/theme_primary_light"
+        android:layout_height="?actionBarSize"
+        android:background="@color/theme_accent"
         android:elevation="8dp">
 
         <android.support.v7.widget.Toolbar
@@ -35,7 +35,7 @@
             android:layout_marginRight="@dimen/list_toolbar_side_margin"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            android:layout_gravity="bottom"
+            android:layout_gravity="center"
             android:background="@color/theme_primary">
 
             <ImageView
