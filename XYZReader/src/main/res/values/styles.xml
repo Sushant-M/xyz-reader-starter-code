@@ -17,12 +17,10 @@
 
 <resources>
 
-    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-        <item name="android:colorPrimary">@color/theme_primary</item>
-        <item name="android:colorAccent">@color/theme_accent</item>
-        <item name="android:colorPrimaryDark">@color/theme_primary_dark</item>
-        <item name="android:textColorPrimary">@color/theme_primary_text</item>
-        <item name="android:textColorSecondary">@color/theme_secondary_text</item>
+    <style name="Theme.Bacon" parent="@style/Theme.AppCompat">
+        <item name="colorPrimary">#673AB7</item>
+        <item name="colorPrimaryDark">#512DA8</item>
+        <item name="colorAccent">#009688</item>
     </style>
 
     <style name="Theme.Bacon.Detail">
