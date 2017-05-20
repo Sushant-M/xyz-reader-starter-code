@@ -27,6 +27,7 @@
                     android:layout_height="@dimen/detail_card_top_margin"
                     android:scaleType="centerCrop"
                     android:adjustViewBounds="true"
+                    android:transitionName="main_image"
                      />
 
             </FrameLayout>
@@ -104,7 +105,7 @@
         android:layout_width="56dp"
         android:layout_height="56dp"
         android:src="@drawable/ic_share"
-        android:elevation="@dimen/fab_elevation"
+        android:elevation="6dp"
         android:contentDescription="@string/action_share" />
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
